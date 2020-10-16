@@ -8,7 +8,7 @@ class Github:
         return response.json()
 
     def getRepo(self,username):
-        response= requests.get(self.api_url + '/users/' + username + '/repos')
+        response = requests.get(self.api_url + '/users/' + username + '/repos')
         return response.json()
 
     def createRepo(self,name,token):
