@@ -1,7 +1,4 @@
 import requests
-
-
-
 class Github:
     def __init__(self):
         self.api_url ='https://api.github.com'
